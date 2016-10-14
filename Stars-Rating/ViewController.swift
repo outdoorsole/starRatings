@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         let ratingsView = RatingsView(frame: frame)
         self.view.addSubview(ratingsView)
         ratingsView.backgroundColor = .red
+        ratingsView.starsGenerator()
     }
 }
 

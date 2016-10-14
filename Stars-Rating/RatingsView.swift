@@ -10,6 +10,8 @@ import UIKit
 
 class RatingsView: UIView {
     
+    
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -18,11 +20,20 @@ class RatingsView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    func starsGenerator() {
+        var xAxis = 5
+        
+        for i in 0..<5
+        {
+            if(i > 0)
+            {
+                xAxis += 19
+            }
+            var starFrame = CGRect(x: xAxis, y: 5, width: 15, height: 10)
+            
+            let starObject = StarsView(frame: starFrame)
+            let star = starObject.makeStar(frame: starFrame)
+            self.addSubview(star)
+        }
     }
-    */
 }
