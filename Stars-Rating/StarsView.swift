@@ -19,9 +19,10 @@ class StarsView: UIView {
     }
     
     func makeStar(frame: CGRect) -> UILabel {
-        let starLabel = UILabel(frame: frame)
+        var starLabel = UILabel(frame: frame)
         starLabel.text = "☆"
-        
+        starLabel.font = UIFont.systemFont(ofSize: 48.0)
+        starLabel.textAlignment = .center
         return starLabel
     }
     

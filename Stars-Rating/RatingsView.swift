@@ -27,9 +27,9 @@ class RatingsView: UIView {
         {
             if(i > 0)
             {
-                xAxis += 19
+                xAxis += 50
             }
-            var starFrame = CGRect(x: xAxis, y: 5, width: 15, height: 10)
+            var starFrame = CGRect(x: xAxis, y: 5, width: 200, height: 100)
             
             let starObject = StarsView(frame: starFrame)
             let star = starObject.makeStar(frame: starFrame)

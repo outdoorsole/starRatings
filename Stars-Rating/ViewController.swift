@@ -24,10 +24,10 @@ class ViewController: UIViewController {
     }
 
     func ratingsGenerator() {
-        var frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        var frame = CGRect(x: 0, y: 300, width: 420, height: 100)
         let ratingsView = RatingsView(frame: frame)
         self.view.addSubview(ratingsView)
-        ratingsView.backgroundColor = .red
+        ratingsView.backgroundColor = .white
         ratingsView.starsGenerator()
     }
 }
