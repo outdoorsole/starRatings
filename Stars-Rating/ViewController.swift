@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        
+        ratingsGenerator()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +23,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func ratingsGenerator() {
+        var frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        let ratingsView = RatingsView(frame: frame)
+        self.view.addSubview(ratingsView)
+        ratingsView.backgroundColor = .red
+    }
 }
 

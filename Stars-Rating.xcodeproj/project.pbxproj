@@ -13,6 +13,8 @@
 		16E54EE31DAEBB8700B52CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E54EE21DAEBB8700B52CD5 /* Assets.xcassets */; };
 		16E54EE61DAEBB8700B52CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E54EE41DAEBB8700B52CD5 /* LaunchScreen.storyboard */; };
 		16E54EF11DAEBB8700B52CD5 /* Stars_RatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E54EF01DAEBB8700B52CD5 /* Stars_RatingTests.swift */; };
+		16E54EFC1DAEBD5200B52CD5 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E54EFB1DAEBD5200B52CD5 /* RatingsView.swift */; };
+		16E54EFE1DAEBD6600B52CD5 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E54EFD1DAEBD6600B52CD5 /* StarsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		16E54EEC1DAEBB8700B52CD5 /* Stars-RatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stars-RatingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E54EF01DAEBB8700B52CD5 /* Stars_RatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars_RatingTests.swift; sourceTree = "<group>"; };
 		16E54EF21DAEBB8700B52CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16E54EFB1DAEBD5200B52CD5 /* RatingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		16E54EFD1DAEBD6600B52CD5 /* StarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				16E54EDB1DAEBB8700B52CD5 /* AppDelegate.swift */,
 				16E54EDD1DAEBB8700B52CD5 /* ViewController.swift */,
+				16E54EFB1DAEBD5200B52CD5 /* RatingsView.swift */,
+				16E54EFD1DAEBD6600B52CD5 /* StarsView.swift */,
 				16E54EDF1DAEBB8700B52CD5 /* Main.storyboard */,
 				16E54EE21DAEBB8700B52CD5 /* Assets.xcassets */,
 				16E54EE41DAEBB8700B52CD5 /* LaunchScreen.storyboard */,
@@ -202,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E54EDE1DAEBB8700B52CD5 /* ViewController.swift in Sources */,
+				16E54EFC1DAEBD5200B52CD5 /* RatingsView.swift in Sources */,
+				16E54EFE1DAEBD6600B52CD5 /* StarsView.swift in Sources */,
 				16E54EDC1DAEBB8700B52CD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
