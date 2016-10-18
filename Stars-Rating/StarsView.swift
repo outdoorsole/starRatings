@@ -23,6 +23,7 @@ class StarsView: UIView {
         starLabel.text = "☆"
         starLabel.font = UIFont.systemFont(ofSize: 48.0)
         starLabel.textAlignment = .center
+        
         return starLabel
     }
     

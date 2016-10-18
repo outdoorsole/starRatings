@@ -33,7 +33,13 @@ class RatingsView: UIView {
             
             let starObject = StarsView(frame: starFrame)
             let star = starObject.makeStar(frame: starFrame)
+
             self.addSubview(star)
         }
+    }
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let location = touches.first?.location(in: self)
+        print(location)
     }
 }
